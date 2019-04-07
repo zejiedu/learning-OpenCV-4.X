@@ -22,6 +22,9 @@ int main() {
 	cout << "pt1.cross(pt)" << pt1.cross(pt) << endl;
 	Point3i point3(1, 2, 3);
 	cout << "Point3i:\n" << point3 << endl;
+	auto sz1234 = Size(12, 34);
+	cout << "sz1234" << sz1234 << endl;
+	cout << Point(sz1234) << endl;
 
 	cout << "****************Scalar******************" << endl;
 	Mat M1(4, 4, CV_32FC2, Scalar(1, 2));
